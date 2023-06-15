@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flappy Bird Game</title>
+    <style>
+        #container {
+            width: 400px;
+            height: 600px;
+            position: relative;
+            border: 1px solid black;
+            overflow: hidden;
+        }
+
+        #bird {
+            width: 40px;
+            height: 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-image: url('bird.png');
+            background-size: cover;
+        }
+
+        .pipe {
+            width: 80px;
+            height: 400px;
+            position: absolute;
+            background-color: green;
+        }
+
+        #score {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="bird"></div>
+        <div id="score">Score: 0</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+#container {
+    width: 400px;
+    height: 600px;
+    position: relative;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+#bird {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('bird.png');
+    background-size: cover;
+}
+
+.pipe {
+    width: 80px;
+    height: 400px;
+    position: absolute;
+    background-color: green;
+}
+
+#score {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+}
